@@ -70,40 +70,44 @@ MSD_Elearning_Demo/
 └─ assets/
    └─ guide.pdf       # example downloadable material
 ```
-lessons.csv
-Column	Description
-id	Unique course ID
-title	Lesson name
-description	Short text shown under the lesson
-video_url	YouTube video link
-material	File name in /assets folder
+### lessons.csv
+| Column     | Description                           |
+|------------|---------------------------------------|
+| id         | Unique course ID                      |
+| title      | Lesson name                           |
+| description| Short text shown under the lesson     |
+| video_url  | YouTube video link                    |
+| material   | File name in `/assets` folder         |
 
 Example
-
+```bash
 id,title,description,video_url,material
 1,Lifting Techniques,Basic lifting and posture training for manual handling,https://www.youtube.com/watch?v=dQw4w9WgXcQ,guide.pdf
 2,Pushing & Pulling,How to safely push or pull objects to reduce MSD risk,https://www.youtube.com/watch?v=3fumBcKC6RE,guide.pdf
 3,Repetitive Tasks,Reduce upper-limb strain and fatigue with micro-breaks and neutral posture,https://www.youtube.com/watch?v=K4TOrB7at0Y,guide.pdf
-
-quiz.csv
-Column	Description
-id	Unique question ID
-question	Question text
-option_a/b/c	Three options
-correct	Correct answer (A/B/C)
+```
+### quiz.csv
+| Column       | Description                        |
+|---------------|------------------------------------|
+| id            | Unique question ID                 |
+| question      | Question text                      |
+| option_a/b/c  | Three options                      |
+| correct       | Correct answer (A/B/C)             |
 
 Example
-
+```bash
 id,question,option_a,option_b,option_c,correct
 1,"What is the safest back posture for lifting?","Keep back straight","Bend and twist","Hold breath",A
 2,"When pushing loads, what should you prioritize?","Use leg strength","Pull with arms","Lean backward",A
 3,"To reduce repetitive strain, you should:","Work longer hours","Take regular micro-breaks","Ignore discomfort",B
-
 ---
 
 ## 🧩 Extension Ideas
 
 ✅ Sync results to Google Sheets for shared progress
+
 ✅ Add login by user email and save scores per learner
+
 ✅ Host on Streamlit Cloud or Render for live demo
+
 ✅ Use local or Google Sheets-based storage for real data tracking
