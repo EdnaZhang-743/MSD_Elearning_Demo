@@ -102,6 +102,8 @@ id,question,option_a,option_b,option_c,correct
 3,"To reduce repetitive strain, you should:","Work longer hours","Take regular micro-breaks","Ignore discomfort",B
 ---
 
+---
+
 ## 🧩 Extension Ideas
 
 ✅ Sync results to Google Sheets for shared progress
