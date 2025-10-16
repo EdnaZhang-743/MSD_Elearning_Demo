@@ -100,4 +100,3 @@ id,question,option_a,option_b,option_c,correct
 1,"What is the safest back posture for lifting?","Keep back straight","Bend and twist","Hold breath",A
 2,"When pushing loads, what should you prioritize?","Use leg strength","Pull with arms","Lean backward",A
 3,"To reduce repetitive strain, you should:","Work longer hours","Take regular micro-breaks","Ignore discomfort",B
----
