@@ -100,3 +100,16 @@ id,question,option_a,option_b,option_c,correct
 1,"What is the safest back posture for lifting?","Keep back straight","Bend and twist","Hold breath",A
 2,"When pushing loads, what should you prioritize?","Use leg strength","Pull with arms","Lean backward",A
 3,"To reduce repetitive strain, you should:","Work longer hours","Take regular micro-breaks","Ignore discomfort",B
+
+```
+
+## 🧩 Extension Ideas
+
+
+✅ Sync results to Google Sheets for shared progress 
+
+✅ Add login by user email and save scores per learner 
+
+✅ Host on Streamlit Cloud or Render for live demo 
+
+✅ Use local or Google Sheets-based storage for real data tracking
